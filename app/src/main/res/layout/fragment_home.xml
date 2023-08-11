@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    tools:context=".fragments.HomeFragment">
+
+    <EditText
+        android:id="@+id/task_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:autofillHints=""
+        android:hint="@string/write_task_1"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/task_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/write_task_2"
+        android:minHeight="48dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/task_one"
+        app:layout_constraintTop_toBottomOf="@+id/task_one"
+        app:layout_constraintVertical_bias="0.091"
+        tools:ignore="TextContrastCheck,VisualLintTextFieldSize"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/task_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="440dp"
+        android:hint="@string/write_task_3"
+        android:minHeight="48dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck,VisualLintTextFieldSize"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/task_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="340dp"
+        android:hint="@string/write_task_4"
+        android:minHeight="48dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck,VisualLintTextFieldSize"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/task_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="244dp"
+        android:hint="@string/write_task_5"
+        android:minHeight="48dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck,VisualLintTextFieldSize"
+        android:inputType="text"
+        android:autofillHints="" />
+</androidx.constraintlayout.widget.ConstraintLayout>

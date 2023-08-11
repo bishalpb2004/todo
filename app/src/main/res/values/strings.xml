@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">todo2.0</string>
+    <string name="task1">Task1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">todo</string>
+    <string name="write_task_1">write task 1</string>
+    <string name="write_task_2">write task 2</string>
+    <string name="write_task_3">write task 3</string>
+    <string name="write_task_4">write task 4</string>
+    <string name="write_task_5">write task 5</string>
+</resources>
